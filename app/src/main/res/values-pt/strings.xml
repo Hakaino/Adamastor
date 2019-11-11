@@ -1,0 +1,34 @@
+<resources>
+    <string name="play">Jogar</string>
+    <string name="options">Opções</string>
+    <string name="resume">Retomar</string>
+    <string name="home">Início</string>
+    <string name="back">Voltar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="next">Próximo</string>
+    <string name="reset">Apagar Tudo</string>
+    <string name="restart">Recomeçar</string>
+    <string name="sure">Apagar tudo!</string>
+    <string name="warning">Apagar toda a informação do jogo?</string>
+    <string name="chose_level">Escolhe o nível</string>
+    <string name="level_1">Nível 1</string>
+    <string name="level_2">Nível 2</string>
+    <string name="level_3">Nível 3</string>
+    <string name="level_4">Nível 4</string>
+    <string name="level_5">Nível 5</string>
+    <string name="level_6">Nível 6</string>
+    <string name="level_7">Nível 7</string>
+    <string name="level_8">Nível 8</string>
+    <string name="switchSfx">Efeitos</string>
+    <string name="switchMusic">Música</string>
+    <string name="myMessage">Enquanto explorava o templo do deus monstro Adamastor, Mutumbula
+        encontrou um artefacto vivo que lhe contou acerca dos planos de Adamastor e seus vassalos
+        de conquistar o mundo assim como o tinham feito à milhões de anos atrás.  De repente, um
+        desmoronamento bloqueou a entrada e a única saída encontra-se no outro lado daquele templo
+        infernal.  Para o ajudar a escapar, o objecto vivo, deu-lhe poderes para além da sua
+        compreensão.</string>
+    <string name="finalMessage">Mutumbula conseguiu escapar, por agora…\nMas quanto tempo terá até à
+        invasão?\n\n Muito obrigado por jogares ;)\nEste foi o meu maior projecto de arte e programação até
+        agora.\n\n Marco António Alemão</string>
+    <string name="info">Informação</string>
+</resources>

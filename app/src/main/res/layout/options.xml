@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@mipmap/background">
+
+    <ToggleButton
+        android:id="@+id/sfx"
+        android:layout_width="@dimen/Button_width"
+        android:layout_height="@dimen/Button_height"
+        android:checked="true"
+        android:focusable="auto"
+        android:text="@string/switchSfx"
+        android:textOff="@string/switchSfx"
+        android:textOn="@string/switchSfx" />
+
+    <ToggleButton
+        android:id="@+id/music"
+        android:layout_width="@dimen/Button_width"
+        android:layout_height="@dimen/Button_height"
+        android:checked="true"
+        android:textOff="@string/switchMusic"
+        android:textOn="@string/switchMusic" />
+    <Button
+        android:layout_width="@dimen/Button_width"
+        android:layout_height="@dimen/Button_height"
+        android:text="@string/reset"
+        android:onClick="AskAgain"
+        android:id="@+id/askAgain" />
+
+    <Button
+        android:layout_width="@dimen/Button_width"
+        android:layout_height="@dimen/Button_height"
+        android:text="@string/back"
+        android:onClick="Home"
+        android:id="@+id/back" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_id">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>

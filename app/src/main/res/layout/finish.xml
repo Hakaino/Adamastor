@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@mipmap/background"
+    android:weightSum="1">
+
+        <Button
+            android:layout_width="@dimen/Button_width"
+            android:layout_height="@dimen/Button_height"
+            android:text="@string/next"
+            android:onClick="Play"
+            android:id="@+id/next" />
+
+        <Button
+            android:layout_width="@dimen/Button_width"
+            android:layout_height="@dimen/Button_height"
+            android:text="@string/restart"
+            android:onClick="Restart"
+            android:id="@+id/restart" />
+
+        <Button
+            android:layout_width="@dimen/Button_width"
+            android:layout_height="@dimen/Button_height"
+            android:text="@string/home"
+            android:onClick="Home"
+            android:id="@+id/main" />
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_id">
+        </com.google.android.gms.ads.AdView>
+
+</LinearLayout>

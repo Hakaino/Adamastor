@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Adamastor</string>
+    <string name="app_id" tools:ignore="MissingTranslation" translatable="false">ca-app-pub-8565501965489811~8372727895</string>
+    <string name="banner_id" tools:ignore="MissingTranslation" translatable="false">ca-app-pub-8565501965489811/9546208762</string>
+    <string name="versionCode" tools:ignore="MissingTranslation" translatable="false">0.01</string>
+    <string name="versionName" tools:ignore="MissingTranslation" translatable="false">Beta</string>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="home">Home</string>
+    <string name="next">Next</string>
+    <string name="options">Options</string>
+    <string name="play">Play</string>
+    <string name="reset">Reset</string>
+    <string name="restart">Restart</string>
+    <string name="resume">Resume</string>
+    <string name="sure">Erase data!</string>
+    <string name="chose_level">Chose level</string>
+    <string name="level_1">Level 1</string>
+    <string name="level_2">Level 2</string>
+    <string name="level_3">Level 3</string>
+    <string name="level_4">Level 4</string>
+    <string name="level_5">Level 5</string>
+    <string name="level_6">Level 6</string>
+    <string name="level_7">Level 7</string>
+    <string name="level_8">Level 8</string>
+    <string name="switchMusic">Music</string>
+    <string name="switchSfx">Sfx</string>
+    <string name="myMessage">While exploring the temple of the god monster Adamastor, Mutunbula
+        found a living artifact which told him that Adamastor and its minions planned to rule the
+        surface world as they did eons in the past. Suddenly a landslide blocked the entrance and
+        the only way out, was on the other side of that hellish temple. To help him escape, the
+        living object gave him powers beyond his comprehension.</string>
+    <string name="finalMessage">Mutumbula was able to escape, for now…\n
+        How long until the invasion?\n\n
+        Thank you very much for playing,\nthis was my greatest art and developing project so far.\n\n
+        Marco António Alemão</string>
+    <string name="warning">Erase all the data?</string>
+    <string name="info">Information</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@mipmap/background">
+
+    <Button
+        android:layout_width="@dimen/Button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/resume"
+        android:onClick="Resume"
+        android:id="@+id/resume" />
+
+    <Button
+        android:layout_width="@dimen/Button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/restart"
+        android:onClick="Play"
+        android:id="@+id/restart" />
+
+    <ToggleButton
+        android:id="@+id/sfx"
+        android:layout_width="@dimen/Button_width"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:focusable="auto"
+        android:text="@string/switchSfx"
+        android:textOff="@string/switchSfx"
+        android:textOn="@string/switchSfx" />
+
+    <ToggleButton
+        android:id="@+id/music"
+        android:layout_width="@dimen/Button_width"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:textOff="@string/switchMusic"
+        android:textOn="@string/switchMusic" />
+
+    <Button
+        android:layout_width="@dimen/Button_width"
+        android:layout_height="wrap_content"
+        android:onClick="Home"
+        android:text="@string/home"
+        android:id="@+id/home" />
+
+</LinearLayout>

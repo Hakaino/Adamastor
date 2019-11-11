@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@mipmap/background"
+    style="@style/AppTheme.NoActionBar">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/Button_height"
+                android:text="@string/level_1"
+                android:id="@+id/level1" />
+            <Button
+                android:layout_width="@dimen/Button_width"
+                android:layout_height="@dimen/Button_height"
+                android:text="@string/level_2"
+                android:id="@+id/level2" />
+            <Button
+                android:layout_width="@dimen/Button_width"
+                android:layout_height="@dimen/Button_height"
+                android:text="@string/level_3"
+                android:id="@+id/level3" />
+            <Button
+                android:layout_width="@dimen/Button_width"
+                android:layout_height="@dimen/Button_height"
+                android:text="@string/level_4"
+                android:id="@+id/level4" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="@dimen/Button_width"
+                android:layout_height="@dimen/Button_height"
+                android:text="@string/level_5"
+                android:id="@+id/level5" />
+            <Button
+                android:layout_width="@dimen/Button_width"
+                android:layout_height="@dimen/Button_height"
+                android:text="@string/level_6"
+                android:id="@+id/level6" />
+            <Button
+                android:layout_width="@dimen/Button_width"
+                android:layout_height="@dimen/Button_height"
+                android:text="@string/level_7"
+                android:id="@+id/level7" />
+            <Button
+                android:layout_width="@dimen/Button_width"
+                android:layout_height="@dimen/Button_height"
+                android:text="@string/level_8"
+                android:id="@+id/level8" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/back" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_id">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@mipmap/lesson"
+    style="@style/AppTheme.NoActionBar">
+
+    <TextView
+        android:id="@+id/story"
+        android:layout_width="160dp"
+        android:layout_height="0dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="1"
+        android:maxLines="17"
+        android:scrollbars="vertical"
+        android:text="@string/myMessage"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Home"
+        android:text="@string/back"
+        android:id="@+id/back" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_id">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>

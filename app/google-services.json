@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "369598258593",
+    "firebase_url": "https://adamastor-e1f6c.firebaseio.com",
+    "project_id": "adamastor-e1f6c",
+    "storage_bucket": "adamastor-e1f6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369598258593:android:69670198f49fa802",
+        "android_client_info": {
+          "package_name": "antigos.segredos.adamastor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369598258593-1tj3g2mpkitlqdcl6ooa05kbs4jvfv62.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "antigos.segredos.adamastor",
+            "certificate_hash": "54B87E9D5B43B670E366769A1002827C9A131E24"
+          }
+        },
+        {
+          "client_id": "369598258593-ti30ja18iiit9a4i0hncknpsi8mvdtf6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyZ7Myv53S-S8zuquY2BHZJJytNcgN1Gs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369598258593-ti30ja18iiit9a4i0hncknpsi8mvdtf6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
